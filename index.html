@@ -433,12 +433,21 @@
       padding-top: 18px;
       border-top: 1px solid rgba(255, 255, 255, 0.08);
       display: flex;
+      flex-wrap: wrap;
       justify-content: space-between;
       gap: 18px;
       color: #9e9e9e;
       font-size: 11px;
       text-transform: uppercase;
       letter-spacing: 0.14em;
+    }
+
+    .footer-note a {
+      color: #d8e5f2;
+    }
+
+    .footer-note a:hover {
+      color: var(--white);
     }
 
     @media (max-width: 860px) {
@@ -520,6 +529,7 @@
           <a class="brand" href="#top" aria-label="Go Click On home">
             <img src="assets/gco-logo-transparent.png" alt="Go Click On all IT solutions">
           </a>
+          
           <a class="pill" href="https://www.goclickon.com.au/contact-us/" target="_blank" rel="noreferrer">Contact Us</a>
         </header>
 
@@ -633,7 +643,9 @@
         </section>
 
         <footer class="footer-note">
-          <span>Melbourne, Australia</span>
+          <span>Phone <a href="tel:1300442648">1300 442 648 (4 GCO IT)</a></span>
+          <span>Email <a href="mailto:info@goclickon.com.au">info@goclickon.com.au</a></span>
+          <span>Level 1, 454 Collins Street,<br>Melbourne, VIC 3000</span>
         </footer>
       </div>
     </section>
